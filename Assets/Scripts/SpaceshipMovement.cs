@@ -10,8 +10,6 @@ public class SpaceshipMovement : MonoBehaviour
     private Sprite idleSprite;
     [SerializeField]
     private Sprite thrustSprite;
-    [SerializeField]
-    private float thrustBlinkFrequency;
 
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D body;
