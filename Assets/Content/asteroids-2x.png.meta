@@ -128,7 +128,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -188,7 +188,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asteroids-2x_0
+      name: large1
       rect:
         serializedVersion: 2
         x: 8
@@ -196,7 +196,7 @@ TextureImporter:
         width: 146
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_1
+      name: large2
       rect:
         serializedVersion: 2
         x: 167
@@ -218,7 +218,7 @@ TextureImporter:
         width: 145
         height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_2
+      name: large3
       rect:
         serializedVersion: 2
         x: 328
@@ -240,7 +240,7 @@ TextureImporter:
         width: 147
         height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,15 +254,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_3
+      name: small1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 193
-        height: 157
+        width: 64
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,7 +276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_4
+      name: medium2
       rect:
         serializedVersion: 2
         x: 91
@@ -284,7 +284,7 @@ TextureImporter:
         width: 92
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,15 +298,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_5
+      name: player
       rect:
         serializedVersion: 2
-        x: 184
-        y: 0
-        width: 107
-        height: 157
+        x: 203
+        y: 2
+        width: 84
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: asteroids-2x_6
       rect:
         serializedVersion: 2
-        x: 293
-        y: 128
-        width: 46
-        height: 12
+        x: 0
+        y: 0
+        width: 64
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,15 +342,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_7
+      name: small2
       rect:
         serializedVersion: 2
-        x: 338
-        y: 128
-        width: 23
-        height: 15
+        x: 65
+        y: 0
+        width: 61
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,15 +364,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_8
+      name: small3
       rect:
         serializedVersion: 2
-        x: 363
-        y: 123
-        width: 16
-        height: 16
+        x: 124
+        y: 0
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -386,15 +386,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_9
+      name: medium1
       rect:
         serializedVersion: 2
-        x: 378
-        y: 128
-        width: 32
-        height: 15
+        x: 0
+        y: 67
+        width: 88
+        height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -408,7 +408,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_10
+      name: alien
       rect:
         serializedVersion: 2
         x: 411
@@ -416,7 +416,7 @@ TextureImporter:
         width: 101
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_11
+      name: medium3
       rect:
         serializedVersion: 2
-        x: 304
-        y: 108
-        width: 9
-        height: 14
+        x: 183
+        y: 67
+        width: 102
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,271 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_12
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 102
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d23e69cffa96dff0800000000000000
-      internalID: -11651525635067177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_13
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 104
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b9eeb537a1d0a2a0800000000000000
-      internalID: -6728147327200073294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_14
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 108
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b103038b89eead80800000000000000
-      internalID: -8237389883006320208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_15
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 108
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bffd0a0a06b7adf50800000000000000
-      internalID: 6906968633468051451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_16
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 108
-        width: 33
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05e9b4e2cf9fb5f50800000000000000
-      internalID: 6871360517987606096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_17
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 108
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de19eba7e965471f0800000000000000
-      internalID: -1048117574606351891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_18
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 82
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86fbc84ab4145b430800000000000000
-      internalID: 3798013653895921512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_19
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 79
-        width: 23
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf691e142ec0d8720800000000000000
-      internalID: 2849948305102837500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_20
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 82
-        width: 20
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63335deba72ba54f0800000000000000
-      internalID: -839162140293778634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_21
-      rect:
-        serializedVersion: 2
-        x: 347
-        y: 83
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22535a2e9a9cff4b0800000000000000
-      internalID: -5404379296332171998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_22
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 82
-        width: 22
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d5529651287bc530800000000000000
-      internalID: 3876323988864128468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_23
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 79
-        width: 38
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4dd82fc6e983775a0800000000000000
-      internalID: -6523683282139050540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: asteroids-2x_24
+      name: player_thrust
       rect:
         serializedVersion: 2
         x: 300
@@ -724,7 +460,7 @@ TextureImporter:
         width: 88
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,15 +474,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids-2x_25
+      name: bullet1
       rect:
         serializedVersion: 2
-        x: 444
+        x: 448
         y: 0
-        width: 68
-        height: 37
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,11 +495,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bullet2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21acd2a93d669d441a0c7cefb62402a8
+      internalID: -1566730081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2326a6c0ae0b4c4429705beb7f33cbda
     internalID: 0
     vertices: []
     indices: 
@@ -772,7 +530,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alien: 8644180394623888661
+      asteroids-2x_12: -11651525635067177
+      asteroids-2x_13: -6728147327200073294
+      asteroids-2x_14: -8237389883006320208
+      asteroids-2x_15: 6906968633468051451
+      asteroids-2x_16: 6871360517987606096
+      asteroids-2x_17: -1048117574606351891
+      asteroids-2x_18: 3798013653895921512
+      asteroids-2x_19: 2849948305102837500
+      asteroids-2x_20: -839162140293778634
+      asteroids-2x_21: -5404379296332171998
+      asteroids-2x_22: 3876323988864128468
+      asteroids-2x_23: -6523683282139050540
+      asteroids-2x_26: 309841198
+      asteroids-2x_6: 5582877646630317362
+      bullet1: 7506446839618878084
+      bullet2: -1566730081
+      large1: 25227389827607002
+      large2: -1579458489453744882
+      large3: 2678344320512120438
+      medium1: 4467696685577758341
+      medium2: 8929462173347784121
+      medium3: 8987858062275602952
+      player: 4283514730149219756
+      player_thrust: -513142229988940647
+      small1: 2134401913456524341
+      small2: -5367097199557907575
+      small3: 9141081980611167266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

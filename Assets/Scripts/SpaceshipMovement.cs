@@ -3,12 +3,9 @@ using UnityEngine;
 public class SpaceshipMovement : MonoBehaviour
 {
     [SerializeField]
-    private float thrustForce = 3f;
-    [SerializeField]
-    private float rotationspeed;
+    private float thrustForce = 5f;
 
     private Rigidbody2D body;
-  
 
     void Start()
     {
@@ -21,9 +18,6 @@ public class SpaceshipMovement : MonoBehaviour
         {
             body.AddForce(transform.right * thrustForce);
         }
-
-
-   
     }
 
     private void OnDrawGizmos()
