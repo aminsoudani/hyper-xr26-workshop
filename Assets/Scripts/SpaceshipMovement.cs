@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class SpaceshipMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Rigidbody2D body;
+
     void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.W))
+        {
+            body.AddForce(transform.right);
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            body.AddRelativeForce(Vector2.right);
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(transform.position, 0.1f);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawSphere(transform.position + transform.right * 2, 0.1f);
     }
 }
