@@ -6,11 +6,19 @@ public class SpaceshipMovement : MonoBehaviour
     private float thrustForce = 5f;
     [SerializeField]
     private float rotationSpeed;
+    [SerializeField]
+    private Sprite idleSprite;
+    [SerializeField]
+    private Sprite thrustSprite;
+    [SerializeField]
+    private float thrustBlinkFrequency;
 
+    private SpriteRenderer spriteRenderer;
     private Rigidbody2D body;
 
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         body = GetComponent<Rigidbody2D>();
     }
 
@@ -30,11 +38,15 @@ public class SpaceshipMovement : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    private void Update()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(transform.position, 0.1f);
-        Gizmos.color = Color.blue;
-        Gizmos.DrawSphere(transform.position + transform.right * 2, 0.1f);
+        if (Input.GetKey(KeyCode.W))
+        {
+            spriteRenderer.sprite = thrustSprite;
+        }
+        else
+        {
+            spriteRenderer.sprite = idleSprite;
+        }
     }
 }
