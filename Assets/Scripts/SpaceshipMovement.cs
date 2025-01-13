@@ -4,6 +4,8 @@ public class SpaceshipMovement : MonoBehaviour
 {
     [SerializeField]
     private float thrustForce = 5f;
+    [SerializeField]
+    private float rotationSpeed;
 
     private Rigidbody2D body;
 
@@ -17,6 +19,14 @@ public class SpaceshipMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             body.AddForce(transform.right * thrustForce);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            body.rotation += rotationSpeed * Time.fixedDeltaTime;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            body.rotation -= rotationSpeed * Time.fixedDeltaTime;
         }
     }
 

@@ -102,6 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9076f3ea8c238fd45b8f4d43aeaf7e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrustForce: 8
+  rotationSpeed: 360
 --- !u!50 &6316024478729609703
 Rigidbody2D:
   serializedVersion: 5
