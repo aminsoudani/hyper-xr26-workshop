@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class SpaceshipMovement : MonoBehaviour
 {
+    [SerializeField]
+    private float thrustForce = 5f;
+
     private Rigidbody2D body;
 
     void Start()
@@ -9,15 +12,11 @@ public class SpaceshipMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.W))
         {
-            body.AddForce(transform.right);
-        }
-        if (Input.GetKey(KeyCode.E))
-        {
-            body.AddRelativeForce(Vector2.right);
+            body.AddForce(transform.right * thrustForce);
         }
     }
 
